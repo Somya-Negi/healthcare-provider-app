@@ -1,0 +1,283 @@
+.button-group {
+  display: inline-flex;
+  gap: 10px; 
+}
+
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  margin-bottom: 0.5rem;
+}
+
+
+.add-service-form {
+  margin-top:20px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.add-service-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.add-service-form .form-group {
+  margin-bottom: 15px;
+}
+
+.add-service-form label {
+  font-weight: bold;
+  color: #495057;
+}
+
+.add-service-form input,
+.add-service-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, border-color 0.3s ease; /* Transition for smooth effect */
+}
+
+
+.add-service-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-service-form button:hover {
+  background-color: #218838;
+}
+
+.add-service-form p {
+  color: red;
+  text-align: center;
+}
+
+.update-service-form {
+  margin-top:20px;
+  background-color: #f8f9fa; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.update-service-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #007bff; 
+}
+
+.update-service-form .form-group {
+  margin-bottom: 15px;
+}
+
+.update-service-form label {
+  font-weight: bold;
+  color: #495057;
+}
+
+.update-service-form input,
+.update-service-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da; 
+  border-radius: 4px;
+ 
+}
+
+
+.update-service-form button {
+  width: 48%; 
+  padding: 10px;
+  width:100px;
+  margin-left:60px;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.update-service-form .btn-primary {
+  background-color: #007bff;
+ }
+
+.update-service-form .btn-primary:hover {
+  background-color: #0056b3; 
+}
+
+.update-service-form .btn-secondary {
+  background-color: #6c757d; 
+}
+
+.update-service-form .btn-secondary:hover {
+  background-color: #5a6268; 
+}
+
+
+.service-list {
+  
+  background-color: #f8f9fa; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.service-list h2 {
+  text-align: center;
+  color: #007bff; 
+  margin-bottom: 20px;
+}
+
+.service-list .list-group {
+  list-style-type: none; 
+  padding: 0;
+}
+
+.service-list .list-group-item {
+  background-color: #ffffff; 
+  border: 1px solid #ced4da; 
+  border-radius: 5px;
+  margin-bottom: 10px; 
+  padding: 15px; 
+  cursor:pointer;
+  transition: box-shadow 0.2s ease; 
+}
+
+.service-list .list-group-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.service-list h5 {
+  margin: 0;
+  color: #343a40;
+}
+
+.service-list p {
+  margin: 5px 0;
+  color: #6c757d; 
+}
+
+.service-list span {
+  font-weight: bold;
+  color: #28a745; 
+}
+
+.service-list .button-group {
+  display: flex;
+  gap: 10px; 
+}
+
+.service-list button {
+  transition: background-color 0.3s ease;
+}
+
+.service-list .btn-warning {
+  background-color: #ffc107; 
+  color: #fff;
+}
+
+.service-list .btn-warning:hover {
+  background-color: #e0a800; 
+}
+
+.service-list .btn-danger {
+  background-color: #dc3545; 
+  color: #fff;
+}
+
+.service-list .btn-danger:hover {
+  background-color: #c82333; 
+}
+
+.container {
+  margin-bottom:50px;
+  max-width: 1200px; 
+  margin-top: 90px; 
+  padding: 20px; 
+  background-color: #f2f2f2; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+h1 {
+  color: #075985; 
+  font-family: 'Arial', sans-serif; 
+  font-weight:bold;
+ 
+}
+
+.row {
+  margin: 20px 0; 
+}
+
+.form-group {
+  margin-bottom: 15px; 
+}
+
+.button-group {
+  margin-top: 10px; 
+}
+
+
+input:focus, textarea:focus {
+  outline: none; 
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+
+
+.btn {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px); 
+}
+
+
+.service-list {
+  margin-top: 20px; 
+}
